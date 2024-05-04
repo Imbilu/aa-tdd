@@ -21,9 +21,9 @@ describe('reciprocal function', () => {
             let rec2 = reciprocal(num2);
             let rec3 = reciprocal(num3);
 
-            expect(rec1).to.equal(1/100);
-            expect(rec2).to.equal(1/5);
-            expect(rec3).to.equal(1/6000);
+            expect(rec1).to.equal(1/num1);
+            expect(rec2).to.equal(1/num2);
+            expect(rec3).to.equal(1/num3);
         });
     });
 
